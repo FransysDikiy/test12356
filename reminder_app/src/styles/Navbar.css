@@ -1,0 +1,67 @@
+.navbar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #009cba;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px; /* Make the logo bigger */
+  margin-right: 30px; /* Adjust space between logo and title */
+}
+
+.title {
+  color: white;
+  font-size: 28px; /* Increase font size for better visibility */
+  font-weight: 600; /* Make the title bolder */
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.logout-btn {
+  color: white;
+  margin-left: 30px; /* Adjust spacing between logout button and avatar */
+  font-size: 16px; /* Increase font size of logout button */
+}
+
+.avatar {
+  margin-right: 15px; /* Increase space between avatar and logout button */
+  background-color: #f0f0f0; /* Light background for avatar */
+}
+
+.avatar-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.notification-wrapper {
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.notification-wrapper .ant-btn {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+}
+
